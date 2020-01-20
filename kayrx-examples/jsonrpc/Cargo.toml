@@ -1,0 +1,15 @@
+[package]
+name = "jsonrpc"
+version = "2.0.0"
+authors = ["mohanson <mohanson@outlook.com>"]
+edition = "2018"
+workspace = ".."
+
+[dependencies]
+kayrx = "0.7"
+bytes = "0.5"
+env_logger = "0.6"
+futures = "0.3.1"
+log = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

@@ -1,0 +1,13 @@
+[package]
+name = "juniper"
+version = "0.2.0"
+authors = ["pyros2097 <pyros2097@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+kayrx = "0.7"
+env_logger = "0.7.1"
+serde = "1.0.103"
+serde_json = "1.0.44"
+serde_derive = "1.0.103"
+juniper = "0.14.2"

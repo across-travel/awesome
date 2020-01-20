@@ -1,0 +1,10 @@
+[package]
+name = "server-sent-event"
+version = "1.0.0"
+authors = ["Arve Seljebu"]
+edition = "2018"
+
+[dependencies]
+kayrx = {path = "../../../kayrx"}
+env_logger = "0.6"
+futures = "0.3.1"
