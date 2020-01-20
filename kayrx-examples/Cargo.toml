@@ -3,4 +3,9 @@ members = [
   "hello",
   "basic",
   "state",
+  "async-web-client",
+  "async-sqlite",
+  "async-ex",
+  "error_handle",
+  "run-in-thread",
 ]

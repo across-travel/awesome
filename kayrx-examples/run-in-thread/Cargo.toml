@@ -1,0 +1,10 @@
+[package]
+name = "run-in-thread"
+version = "2.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>", "krircc <krircc@qq.com>"]
+edition = "2018"
+description = "Run kayrx::web in separate thread"
+
+[dependencies]
+kayrx = "0.7.0"
+env_logger = "0.6"
