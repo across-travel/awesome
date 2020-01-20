@@ -1,0 +1,12 @@
+[package]
+name = "basic"
+version = "0.1.0"
+authors = ["krircc <krircc@aliyun.com>"]
+edition = "2018"
+
+[dependencies]
+kayrx = "0.7.0"
+keclc-file = "0.2.0"	
+futures = "0.3.1"	
+env_logger = "0.5"	
+bytes = "0.5" 
