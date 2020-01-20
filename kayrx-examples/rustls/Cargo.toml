@@ -1,0 +1,15 @@
+[package]
+name = "rustls"
+version = "1.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>", "krircc <krircc@qq.com>"]
+edition = "2018"
+
+[[bin]]
+name = "rustls-server"
+path = "src/main.rs"
+
+[dependencies]
+env_logger = "0.5"
+rustls = "0.16"
+kayrx = "0.7"
+keclc-file = "0.2.0"

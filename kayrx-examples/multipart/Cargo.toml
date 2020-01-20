@@ -1,0 +1,15 @@
+[package]
+name = "multipart"
+version = "0.3.0"
+authors = ["Bevan Hunt <bevan@bevanhunt.com>", "krircc <krircc@qq.com>"]
+edition = "2018"
+license = "MIT"
+description =  "File uploader in kayrx with Async/Await"
+keywords = ["kayrx", "web", "multipart"]
+repository = "https://github.com/kayrx/awesome"
+readme = "README.md"
+
+[dependencies]
+futures = "0.3.1"
+keclc-multipart = "0.1.0"
+kayrx = "0.7"
