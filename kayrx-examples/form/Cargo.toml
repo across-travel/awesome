@@ -1,0 +1,9 @@
+[package]
+name = "web-form"
+version = "1.0.0"
+authors = ["Gorm Casper <gcasper@gmail.com>", "krircc <krircc@qq.com>"]
+edition = "2018"
+
+[dependencies]
+kayrx = "0.7.0"
+serde = { version = "1.0", features = ["derive"] }

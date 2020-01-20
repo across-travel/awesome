@@ -2,6 +2,8 @@
 members = [
   "hello",
   "basic",
+  "form",
+  "http-proxy",
   "state",
   "async-web-client",
   "async-sqlite",

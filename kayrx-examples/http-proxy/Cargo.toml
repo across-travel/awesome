@@ -1,0 +1,12 @@
+[package]
+name = "http-proxy"
+version = "2.0.0"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>", "Rotem Yaari <vmalloc@gmail.com>", "krircc <krircc@qq.com>"]
+edition = "2018"
+
+[dependencies]
+kayrx = "0.7"
+clap = "2.32.0"
+futures = "0.3.1"
+failure = "0.1.3"
+url = "1.7.1"
