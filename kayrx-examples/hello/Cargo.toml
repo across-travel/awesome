@@ -7,5 +7,5 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-kayrx = "0.7"
+kayrx = {git = "https://github.com/kayrx/kayrx"}
 env_logger = "0.6"

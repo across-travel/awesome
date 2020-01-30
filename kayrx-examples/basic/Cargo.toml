@@ -5,8 +5,8 @@ authors = ["krircc <krircc@aliyun.com>"]
 edition = "2018"
 
 [dependencies]
-kayrx = "0.7.0"
-keclc-file = "0.2.0"	
+kayrx = {git = "https://github.com/kayrx/kayrx"}
+keclc-file = {git = "https://github.com/kayrx/keclc"}
 futures = "0.3.1"	
 env_logger = "0.5"	
 bytes = "0.5" 

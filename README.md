@@ -1,5 +1,7 @@
 # Awesome
 
+![linux](https://github.com/kayrx/awesome/workflows/linux/badge.svg?branch=master)
+
 ## Kayrx
 
 - [Examples](https://github.com/kayrx/awesome/tree/master/kayrx-examples)
