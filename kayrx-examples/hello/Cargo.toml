@@ -3,7 +3,6 @@ name = "hello"
 version = "0.2.0"
 authors = ["Nikolay Kim <fafhrd91@gmail.com>", "krircc@qq.com"]
 license = "MIT"
-readme = "README.md"
 edition = "2018"
 
 [dependencies]
