@@ -1,7 +1,7 @@
 [workspace]
 members = [
   "kayrx-examples/async-ex",
-  "kayrx-examples/async-sqlite",
+  # "kayrx-examples/async-sqlite",
   "kayrx-examples/async-web-client",
   "kayrx-examples/basic",
   "kayrx-examples/error_handle",
