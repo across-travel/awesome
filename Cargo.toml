@@ -21,6 +21,6 @@ members = [
   "kayrx-examples/static_index",
   "kayrx-examples/template_tera",
   "kayrx-examples/unix-socket",
-  "kayrx-examples/web-cors",
+  "kayrx-examples/web-cors/backend",
   "kayrx-examples/web-middleware",
 ]
