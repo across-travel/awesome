@@ -13,7 +13,7 @@ members = [
   "kayrx-examples/jsonrpc",
   "kayrx-examples/juniper",
   "kayrx-examples/multipart",
-  "kayrx-examples/r2d2",
+  # "kayrx-examples/r2d2",
   "kayrx-examples/run-in-thread",
   "kayrx-examples/rustls",
   "kayrx-examples/server-sent-event",
