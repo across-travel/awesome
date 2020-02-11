@@ -6,7 +6,5 @@ edition = "2018"
 description = "Run kayrx::web in separate thread"
 
 [dependencies]
-kayrx = {git = "https://github.com/kayrx/kayrx"}
-
-# kayrx = "0.7.0"
+kayrx = "0.7.0"
 env_logger = "0.6"
