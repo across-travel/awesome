@@ -5,7 +5,9 @@ authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-kayrx = "0.7"
+kayrx = {git = "https://github.com/kayrx/kayrx"}
+
+# kayrx = "0.7"
 futures = "0.3.1"
 env_logger = "0.6"
 uuid = { version = "0.8", features = ["v4"] }
