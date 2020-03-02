@@ -5,7 +5,7 @@ authors = ["Darin Gordon <dkcdkg@gmail.com>", "krircc <krircc@qq.com>"]
 edition = "2018"
 
 [dependencies]
-kayrx = "0.7.0"
+kayrx = "0.8.0"
 env_logger = "0.6"
 failure = "0.1.1"
 futures = "0.3.1"

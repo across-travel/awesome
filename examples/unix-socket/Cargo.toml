@@ -6,4 +6,4 @@ edition = "2018"
 
 [dependencies]
 env_logger = "0.6"
-kayrx = "0.7"
+kayrx = "0.8.0"

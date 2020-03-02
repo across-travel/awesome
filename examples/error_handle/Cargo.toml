@@ -5,7 +5,7 @@ authors = ["dowwie <dkcdkg@gmail.com>", "krircc <krircc@qq.com>"]
 edition = "2018"
 
 [dependencies]
-kayrx = "0.7.0"
+kayrx = "0.8.0"
 derive_more = "0.99.2"
 futures = "0.3.1"
 rand = "0.5.4"

@@ -5,7 +5,7 @@ authors = ["Nikolay Kim <fafhrd91@gmail.com>", "Rotem Yaari <vmalloc@gmail.com>"
 edition = "2018"
 
 [dependencies]
-kayrx = "0.7"
+kayrx = "0.8.0"
 clap = "2.32.0"
 futures = "0.3.1"
 failure = "0.1.3"

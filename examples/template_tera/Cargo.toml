@@ -7,4 +7,4 @@ edition = "2018"
 [dependencies]
 env_logger = "0.6"
 tera = "1.0"
-kayrx = "0.7"
+kayrx = "0.8.0"

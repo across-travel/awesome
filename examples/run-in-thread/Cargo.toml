@@ -6,5 +6,5 @@ edition = "2018"
 description = "Run kayrx::web in separate thread"
 
 [dependencies]
-kayrx = "0.7.0"
+kayrx = "0.8.0"
 env_logger = "0.6"

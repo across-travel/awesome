@@ -7,5 +7,5 @@ edition = "2018"
 [dependencies]
 futures = "0.3.1"
 env_logger = "0.6"
-kayrx = "0.7"
-keclc-file = "0.2.0"
+kayrx = "0.8.0"
+keclc-file = {git="https://github.com/kayrx/keclc"}
