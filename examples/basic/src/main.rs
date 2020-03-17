@@ -1,13 +1,9 @@
-#[macro_use]	
-extern crate kayrx;	
-
 use std::{env, io};	
-use keclc_file as fs;	
-use kayrx::util::mpsc;	
-use kayrx::http::{header, Method, StatusCode};	
+use kayrx::web::file as fs;	
+use kayrx::krse::sync::local::mpsc;	
+use kayrx::http::{error, error::Error, header, Method, StatusCode};	
 use kayrx::web::{	
-    error, guard, middleware, web, App, Error, HttpRequest, HttpResponse, HttpServer,	
-    Result,	
+    get,  guard, middleware, self, types,  App,  HttpRequest, HttpResponse, HttpServer,	error::Result
 };	
 use bytes::Bytes;
 
@@ -29,7 +25,7 @@ async fn welcome(req: HttpRequest) -> Result<HttpResponse> {
 }	
 
 /// response body	
-async fn response_body(path: web::Path<String>) -> HttpResponse {	
+async fn response_body(path: types::Path<String>) -> HttpResponse {	
     let text = format!("Hello {}!", *path);	
 
     let (tx, rx_body) = mpsc::channel();	
@@ -39,7 +35,7 @@ async fn response_body(path: web::Path<String>) -> HttpResponse {
 }	
 
 /// handler with path parameters like `/user/{name}/`	
-async fn with_param(req: HttpRequest, path: web::Path<(String,)>) -> HttpResponse {	
+async fn with_param(req: HttpRequest, path: types::Path<(String,)>) -> HttpResponse {	
     println!("{:?}", req);	
 
     HttpResponse::Ok()	
@@ -54,12 +50,12 @@ async fn p404() -> Result<fs::NamedFile> {
 
 #[kayrx::main]
 async fn main() -> io::Result<()> {	
-    env::set_var("RUST_LOG", "eternal=debug,eternal=info");	      
+    env::set_var("RUST_LOG", "kayrx=debug,kayrx=info");	      
     env_logger::init();
 
     HttpServer::new(|| {	         
         App::new()	
-            // enable logger - always register eternal Logger middleware last	
+            // enable logger - always register kayrx Logger middleware last	
             .wrap(middleware::Logger::default())	
             // register favicon	
             .service(favicon)	

@@ -2,7 +2,7 @@
 members = [
   "examples/async-ex",
   # "examples/async-pg",
-  "examples/async-sqlite",
+  # "examples/async-sqlite",
   "examples/async-web-client",
   "examples/basic",
   "examples/error_handle",
@@ -14,7 +14,7 @@ members = [
   "examples/jsonrpc",
   "examples/juniper",
   "examples/multipart",
-  "examples/r2d2",
+  # "examples/r2d2",
   "examples/run-in-thread",
   "examples/rustls",
   "examples/server-sent-event",
