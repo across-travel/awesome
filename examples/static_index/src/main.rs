@@ -1,5 +1,4 @@
-use keclc_file as fs;
-use kayrx::web::{middleware, App, HttpServer};
+use kayrx::web::{middleware, App, HttpServer, file as fs};
 
 #[kayrx::main]
 async fn main() -> std::io::Result<()> {

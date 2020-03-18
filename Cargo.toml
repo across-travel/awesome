@@ -1,7 +1,6 @@
 [workspace]
 members = [
   "examples/async-ex",
-  # "examples/async-pg",
   # "examples/async-sqlite",
   "examples/async-web-client",
   "examples/basic",
